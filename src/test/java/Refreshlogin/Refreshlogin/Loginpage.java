@@ -45,6 +45,7 @@ class Loginpage {
 		driver.findElement(By.xpath("//i[@class='fa fa-shopping-cart']")).click();
 		driver.findElement(By.xpath("//a[@class='btn btn-default check_out']")).click();
 		driver.findElement(By.xpath("//a[text()='Place Order']")).click();
+                System.out.println("yes");
 		
 		
 		
